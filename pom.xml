@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>2.52.0</version>
+			<version>3.13.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -191,7 +191,7 @@
                             <vulas.reach.timeout>60</vulas.reach.timeout>
 
                             
-                            <vulas.report.exceptionExcludeBugs />
+                            <vulas.report.exceptionExcludeBugs/>
                             <vulas.report.reportDir>${project.build.directory}/vulas/report</vulas.report.reportDir>
                         </layeredConfiguration>
                     </configuration>
